@@ -1,0 +1,369 @@
+html {
+    min-height: 100vh;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+.background {
+    background-color: #1affd5;
+    background-image: linear-gradient(to bottom left, #1affd5, #007fff, #9c4bbe);
+
+}
+
+nav {
+    height: 10%;
+    margin-top:10px;
+}
+
+header {
+    height: 35%;
+    width: 100%;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.flex-container-space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container-end {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+}
+.flex-container-center-start {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.flex-container-between-start {
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+h1 {
+    color: white;
+    font-size: 32px;
+    margin: 0;
+}
+
+.dosis-normal {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.dosis-light {
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.quicksand-normal {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+.card-background {
+    margin-top: 2.5%;
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0px 10px 10px #0053a7;
+} 
+
+.img-background {
+    background-color: #1b1f3b;
+    opacity: 90%;
+    background-position: 80% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 1;
+    border-radius: 25px 0px 0px 25px ;
+}
+
+.text-box {
+    background-color: #ebeefc;
+    opacity: 90%;
+    flex: 2;
+    border-radius: 0px 25px 25px 0px;
+    padding: 20px;
+}
+
+.titel {
+    font-size: 9em;
+    color: white;
+    text-shadow: white;
+    text-shadow: rgb(49, 49, 49) 1px 3px 10px;
+}
+
+.titel-small {
+    font-size: 5em;
+}
+
+.header-text {
+    font-size: 2.5em;
+    margin: 0;
+    color: #1b1f3b;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header-slogan {
+    font-size: 4.5em;
+}
+
+main {
+    width: 80%;
+    min-height: 100vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 10%;
+
+}
+
+.flex-box {
+    width: 35vw;
+    height: 70vh;
+    background-color: #ebeefc;
+    opacity: 90%;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.flex-box-titel {
+    font-size: 4em;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.flex-box-titel-background-color {
+    background-color: #1b1f3b;
+    width: 100%;
+    height: 15vh;
+    opacity: 90%;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.flex-box-text {
+    font-size: 1.7em;
+    margin: 0;
+    color: #1b1f3b;
+    margin-bottom: 20px;
+}
+
+.flex-box-text-box {
+    padding: 25px;
+}
+
+.mission-statement {
+    height: 50vh;
+}
+
+.problem-solve {
+    height: 60vh;
+}
+
+.technical-info {
+    height: 60vh;
+}
+
+@media (width <= 1900px) {
+    .titel {
+        font-size: 7em;
+    }
+
+    .titel-small {
+        font-size: 4em;
+    }
+
+    .flex-box-titel {
+        font-size: 3.5em;
+    }
+
+    .header-text {
+        font-size: 1.5em;
+    }
+
+    .header-slogan {
+        font-size: 3em;
+    }
+
+    .flex-box-text {
+        font-size: 1.3em;
+    }
+
+}
+
+@media (width <= 1450px) {
+    .flex-box-titel {
+        font-size: 2.5em;
+    }
+
+    .flex-box-text {
+        font-size: 1em;
+    }
+
+    .titel {
+        font-size: 5em;
+    }
+
+    .titel-small {
+        font-size: 3em;
+    }
+
+    .header-text {
+        font-size: 1.5em;
+    }
+
+    .header-slogan {
+        font-size: 2.5em;
+    }
+
+    .flex-box-text-box {
+        padding: 10px;
+    }
+}
+
+@media (width <= 1150px) {
+    .flex-box-titel {
+        font-size: 2em;
+    }
+
+    .flex-box-text {
+        font-size: 0.9em;
+    }
+}
+
+@media (width <= 1000px) {
+    .titel {
+        font-size: 4em;
+    }
+
+    .titel-small {
+        font-size: 2em;
+    }
+}
+
+@media (width <= 800px) {
+    .mobile-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flex-box {
+        width: 60vw;
+        height: 50vh;
+    }
+
+    .card-background {
+        width: 80vw;
+        height: 50vh;
+    }
+}
+
+@media (width <= 620px) {
+    .mobile-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flex-box {
+        width: 60vw;
+        height: 60vh;
+    }
+
+    .card-background {
+        width: 80vw;
+        height: 40vh;
+    }
+
+    .header-text {
+        font-size: 1em;
+    }
+
+    .header-slogan {
+        font-size: 1.5em;
+    }
+
+    .titel {
+        font-size: 2.5em;
+    }
+
+    .titel-small {
+        font-size: 1.5em;
+    }
+}
+
+@media (width <= 620px) {
+    .mobile-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flex-box {
+        width: 60vw;
+        height: 60vh;
+    }
+
+    .card-background {
+        width: 80vw;
+        height: 40vh;
+    }
+
+    .header-text {
+        font-size: 1em;
+    }
+
+    .header-slogan {
+        font-size: 1.5em;
+    }
+
+    .titel {
+        font-size: 2.5em;
+    }
+
+    .titel-small {
+        font-size: 1.5em;
+    }
+}
+
+@media (width <= 470px) {
+    .flex-box-text {
+        font-size: 0.8em;
+    }
+}
